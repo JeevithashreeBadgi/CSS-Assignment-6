@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(./shara\ desert\ \(1\).jpg);
+    width:100vw;
+    height: 100vh;
+    background-image: url(./shara\ desert\ \(1\).jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.camel{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:50px;
+    left:150px;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.home{
+    color:white;
+    padding: 20px;
+}
+.region{
+    color:white;
+    padding: 20px;
+}
+.about{
+    color:white;
+    padding: 20px;
+}
+.menu{
+    color:white;
+    padding: 20px;
+}
+.sec1{
+    color:white;
+    width:40%;
+    position: relative;
+    left:100px;
+    top:100px;
+}
+button{
+    background-color: white;
+    width: 100px;
+    border: 0px;
+    border-radius: 10px;
+}
+.sec2{
+    color: white;
+    width:40%;
+    position: relative;
+    left:800px;
+    top:-100px;
+}
+.cards{
+    display: grid;
+    grid-template-columns:auto auto ;
+    gap: 20px;
+}
+.card1{
+    background-image: url(./1647078702887.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card2{
+    background-image: url(./pic-2\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card3{
+    background-image: url(./pic-3\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card4{
+    background-image: url(./pic-4\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+.card2:hover{
+    transform: translateY(-10px);
+}
+.card3:hover{
+    transform: translateY(-10px);
+}
+.card4:hover{
+    transform: translateY(-10px);
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-image:url(./shara\ desert\ \(1\).jpg);
+        width:100vw;
+        height: 100vh;
+        background-image: url(./shara\ desert\ \(1\).jpg);
+        background-size:cover;
+        background-repeat:repeat;
+    }
+    .camel{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top:25px;
+        left:10px;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        position: fixed;
+        top:5px;
+        left:75px;
+    }
+    .home{
+        color:white;
+        padding: 5px;
+    }
+    .region{
+        color:white;
+        padding: 5px;
+    }
+    .about{
+        color:white;
+        padding: 5px;
+    }
+    .menu{
+        color:white;
+        padding: 5px;
+    }
+    .sec1{
+        color:white;
+        width:70%;
+        position: relative;
+        left:10px;
+        top:10px;
+    }
+    .sec2{
+        color: white;
+        width:75%;
+        position: relative;
+        left:60px;
+        top:60px;
+    }
+    .cards{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card1{
+        background-image: url(./1647078702887.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .card2{
+        background-image: url(./pic-2\ \(1\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .card3{
+        background-image: url(./pic-3\ \(1\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .card4{
+        background-image: url(./pic-4\ \(1\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .card1:hover{
+        transform: translateY(-10px);
+    }
+    .card2:hover{
+        transform: translateY(-10px);
+    }
+    .card3:hover{
+        transform: translateY(-10px);
+    }
+    .card4:hover{
+        transform: translateY(-10px);
+    }
+}
